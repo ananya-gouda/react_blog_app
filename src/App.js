@@ -28,35 +28,35 @@ const Layout = () => {
 
 const router = createBrowserRouter([
   {
-    path: "/https://ananya-gouda.github.io/blog-app-react/",
+    path: "/",
     element: <Layout/>,
     children: [
 
 
       {
-        path: "https://ananya-gouda.github.io/blog-app-react/",
+        path: "/blog-app-react/",
         element: <Home/>,
       },
 
       {
-        path: "https://ananya-gouda.github.io/blog-app-react/post/:id",
+        path: "/post/:id",
         element: <Single/>,
       },
 
       {
-        path: "https://ananya-gouda.github.io/blog-app-react/write",
+        path: "/write",
         element: <Write/>,
       },
     ],
   },
 
   {
-    path: "https://ananya-gouda.github.io/blog-app-react/register",
+    path: "/register",
     element: <Register/>,
   },
 
   {
-    path: "https://ananya-gouda.github.io/blog-app-react/login",
+    path: "/login",
     element: <Login/>,
   },
 

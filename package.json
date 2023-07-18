@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ananya-gouda.github.io/blog-app-react",
+  "homepage": "https://ananya-gouda.github.io",
   "name": "client",
   "version": "0.1.0",
   "private": true,
@@ -31,7 +31,6 @@
       "react-app",
       "react-app/jest"
     ]
-
   },
   "browserslist": {
     "production": [
