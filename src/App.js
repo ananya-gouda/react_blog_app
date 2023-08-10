@@ -34,7 +34,7 @@ const router = createBrowserRouter([
 
 
       {
-        path: "/blog-app-react/",
+        path: "/",
         element: <Home/>,
       },
 
